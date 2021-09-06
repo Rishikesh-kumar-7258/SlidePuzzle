@@ -2,6 +2,7 @@ import pygame
 
 from statemachine import StateMachine
 from States.play import Play
+from States.win import Win
 from constants import *
 
 pygame.init()
@@ -12,10 +13,11 @@ def main():
     global WINDOW_WIDTH, WINDOW_HEIGHT, SCREEN, GAME_STATE
 
     STATES = {
-    "play" : Play()
+    "play" : Play(),
+    "win" : Win()
     }
     GAME_STATE.states = STATES
-    GAME_STATE.change("play")
+    GAME_STATE.change("win")
 
     GAME_OVER = False
 

@@ -13,6 +13,9 @@ class Block:
         self.color2 = color2
         self.text = text
 
+        self.speed = 5
+        self.direction = [0, 0]
+
     def render(self):
         global SCREEN
         pygame.draw.rect(SCREEN, self.color, [self.x, self.y, self.width, self.height])
@@ -28,4 +31,19 @@ class Block:
         SCREEN.blit(t, textRect)
 
     def update(self):
+
+        self.x += self.speed * self.direction[0]
+        self.y += self.speed * self.direction[1]
+        
         self.render()
+
+    def hover(self):
+        x,y = pygame.mouse.get_pos()
+
+        return (x >= self.x and y >= self.y and x <= self.x + self.width and y <= self.y + self.height)
+    
+    def clicked(self):
+
+        a, b, c = pygame.mouse.get_pressed()
+
+        return self.hover() and a

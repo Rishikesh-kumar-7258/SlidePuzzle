@@ -1,6 +1,6 @@
 # SlideBlock
-This is a sliding block game. Players will have to sort the blocks in asending order to win the game.
-This game is not as simple as it looks
+This is a sliding block game. Player will have to sort the blocks in asending order to win the game.
+**Not as easy as it looks**
 
 
 ![Visits Badge](https://badges.pufler.dev/visits/Rishikesh-kumar-7258/SlidePuzzle)
@@ -11,6 +11,7 @@ This game is not as simple as it looks
 ![Stars Badge](https://img.shields.io/github/stars/Rishikesh-kumar-7258/SlidePuzzle?style=flat-square)
 ![Issues Badge](https://img.shields.io/github/issues/Rishikesh-kumar-7258/SlidePuzzle?style=flat-square)
 ![Issues Badge](https://img.shields.io/github/issues-pr/Rishikesh-kumar-7258/SlidePuzzle?style=flat-square)
+![Lines of code](https://img.shields.io/tokei/lines/github/Rishikesh-kumar-7258/SlidePuzzle?style=flat-square)
 
 ## Languages used
 <p align="left">
