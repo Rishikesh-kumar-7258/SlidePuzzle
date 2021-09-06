@@ -3,6 +3,8 @@ import pygame
 from statemachine import StateMachine
 from States.play import Play
 from States.win import Win
+from States.start import Start
+from States.countdownstate import CountDown
 from constants import *
 
 pygame.init()
@@ -14,10 +16,12 @@ def main():
 
     STATES = {
     "play" : Play(),
-    "win" : Win()
+    "win" : Win(),
+    "start" : Start(), 
+    "countdown" : CountDown()
     }
     GAME_STATE.states = STATES
-    GAME_STATE.change("play")
+    GAME_STATE.change("start")
 
     GAME_OVER = False
 

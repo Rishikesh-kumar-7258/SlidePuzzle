@@ -4,7 +4,7 @@ import random
 from States.baseclass import Base
 from constants import *
 from Classes.blocks import Block
-from Functions import Pivot_sort
+from Functions import *
 
 class Play(Base):
 
@@ -42,9 +42,7 @@ class Play(Base):
         for i in range(15):
             self.block_array[i].render()
         
-        font = pygame.font.SysFont("Comic sans MS", 24)
-        text = font.render(f"Moves : {str(self.moves_count)}", True, BLUE, GRAY)
-        textRect = text.get_rect()
+        text, textRect = print_text(24, f"Moves : {str(self.moves_count)}", BLUE, GRAY)
         textRect.x = 5
         textRect.y = 5
         SCREEN.blit(text, textRect)
@@ -81,3 +79,27 @@ class Play(Base):
             if (int(l[i].text) > int(l[i+1].text)) : return False
         
         return True
+    
+    def enter(self):
+        self.block_array = []
+        for i in range(4):
+            for j in range(4):
+                block = Block(120+j*100, 40+i*100)
+                self.block_array.append(block)
+        
+        self.block_array.pop()
+
+        self.num_array = []
+        for i in range(15):
+            self.num_array.append(i+1)
+
+        random.shuffle(self.num_array)
+
+        for i in range(15):
+            self.block_array[i].text = self.num_array[i]
+
+        self.blank = (420, 340)
+        self.width = 100
+        self.height = 100
+
+        self.moves_count = 0
