@@ -17,7 +17,7 @@ def main():
     "win" : Win()
     }
     GAME_STATE.states = STATES
-    GAME_STATE.change("win")
+    GAME_STATE.change("play")
 
     GAME_OVER = False
 
