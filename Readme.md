@@ -3,14 +3,14 @@ This is a sliding block game. Players will have to sort the blocks in asending o
 This game is not as simple as it looks
 
 
-![Visits Badge](https://badges.pufler.dev/visits/Rishikesh-kumar-7258/SlideBlock)
-![Updated Badge](https://badges.pufler.dev/updated/Rishikesh-kumar-7258/SlideBlock)
-![Created Badge](https://badges.pufler.dev/created/Rishikesh-kumar-7258/SlideBlock)
-![Licence Badge](https://img.shields.io/github/license/Rishikesh-kumar-7258/SlideBlock?style=flat-square)
-![Forks Badge](https://img.shields.io/github/forks/Rishikesh-kumar-7258/SlideBlock?style=flat-square)
-![Stars Badge](https://img.shields.io/github/stars/Rishikesh-kumar-7258/SlideBlock?style=flat-square)
-![Issues Badge](https://img.shields.io/github/issues/Rishikesh-kumar-7258/SlideBlock?style=flat-square)
-![Issues Badge](https://img.shields.io/github/issues-pr/Rishikesh-kumar-7258/SlideBlock?style=flat-square)
+![Visits Badge](https://badges.pufler.dev/visits/Rishikesh-kumar-7258/SlidePuzzle)
+![Updated Badge](https://badges.pufler.dev/updated/Rishikesh-kumar-7258/SlidePuzzle)
+![Created Badge](https://badges.pufler.dev/created/Rishikesh-kumar-7258/SlidePuzzle)
+![Licence Badge](https://img.shields.io/github/license/Rishikesh-kumar-7258/SlidePuzzle?style=flat-square)
+![Forks Badge](https://img.shields.io/github/forks/Rishikesh-kumar-7258/SlidePuzzle?style=flat-square)
+![Stars Badge](https://img.shields.io/github/stars/Rishikesh-kumar-7258/SlidePuzzle?style=flat-square)
+![Issues Badge](https://img.shields.io/github/issues/Rishikesh-kumar-7258/SlidePuzzle?style=flat-square)
+![Issues Badge](https://img.shields.io/github/issues-pr/Rishikesh-kumar-7258/SlidePuzzle?style=flat-square)
 
 ## Languages used
 <p align="left">
@@ -43,7 +43,7 @@ If you want to try this game on your computer then do the following steps:
 6. You are all set enjoy
 
 ## Contributors
-![Contributors](https://contrib.rocks/image?repo=Rishikesh-kumar-7258/SlideBlock)
+![Contributors](https://contrib.rocks/image?repo=Rishikesh-kumar-7258/SlidePuzzle)
 
 ## Contact me
 [Gmail](mailto:rishi7258prince@gmail.com)
