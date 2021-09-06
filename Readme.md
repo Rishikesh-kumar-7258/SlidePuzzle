@@ -20,6 +20,8 @@ This is a sliding block game. Player will have to sort the blocks in asending or
 
 
 ## Installation
+
+**You can directly download this game from dist folder in your laptop**
 If you want to try this game on your computer then do the following steps:
 1. Fork this repo in your personal github account
 2. Make a copy of that repo in your device
