@@ -42,7 +42,7 @@ class Play(Base):
         for i in range(15):
             self.block_array[i].render()
         
-        font = pygame.font.SysFont(None, 36)
+        font = pygame.font.SysFont("Comic sans MS", 24)
         text = font.render(f"Moves : {str(self.moves_count)}", True, BLUE, GRAY)
         textRect = text.get_rect()
         textRect.x = 5

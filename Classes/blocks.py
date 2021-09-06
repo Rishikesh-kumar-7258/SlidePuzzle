@@ -24,7 +24,7 @@ class Block:
         pygame.draw.line(SCREEN, self.color2, (self.x+self.width, self.y), (self.x + self.width, self.y+self.height))
         pygame.draw.line(SCREEN, self.color2, (self.x, self.y+self.height), (self.x + self.width, self.y+self.height))
 
-        font = pygame.font.SysFont(None, 72)
+        font = pygame.font.SysFont("Comic sans MS", 54)
         t = font.render(str(self.text), True, self.color2, self.color)
         textRect = t.get_rect()
         textRect.center = (self.x + self.width // 2, self.y + self.height // 2)
