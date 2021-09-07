@@ -21,7 +21,8 @@ This is a sliding block game. Player will have to sort the blocks in asending or
 
 ## Installation
 
-***You can directly download this game from dist folder in the codes section to your laptop***
+`You can directly download this game from dist folder in the codes section to your laptop or pc`
+
 If you want to try this game on your computer then do the following steps:
 1. Fork this repo in your personal github account
 2. Make a copy of that repo in your device
@@ -44,6 +45,12 @@ If you want to try this game on your computer then do the following steps:
     ```
 
 6. You are all set enjoy
+
+## Concepts
+
+1. This game uses a statemachine which handles different states of the game. All states such as play-state, start-state, countdown-state etc. are in States folder as a class.
+2. This game also counts the number of moves in which the puzzle is solved.
+3. There is a sorting algorithms used in this game, Quick sort, which is a very popular sorting algorithm you can read more about Quick sort [here](https://www.geeksforgeeks.org/quick-sort/)
 
 ## Contributors
 ![Contributors](https://contrib.rocks/image?repo=Rishikesh-kumar-7258/SlidePuzzle)
